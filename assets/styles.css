@@ -221,6 +221,11 @@ img{max-width:100%}
   box-shadow: var(--shadow);
   overflow:hidden;
 }
+.panelCard__image{
+  display:block;
+  width:100%;
+  height:auto;
+}
 .panelCard__top{padding:18px 18px 12px}
 .panelCard__title{font-weight:900; font-size:20px; margin-top:10px}
 .panelCard__desc{color:var(--muted); margin-top:6px}
