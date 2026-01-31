@@ -14,7 +14,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Barlow+Condensed:wght@600;700;800;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="assets/styles.css" />
@@ -29,7 +29,7 @@
         <span class="brand__mark" aria-hidden="true"></span>
         <span class="brand__text">
           <span class="brand__name">Waste Be Gone Now</span>
-          <span class="brand__tag">Valet Trash &bull; Compliance &bull; Documentation</span>
+          <span class="brand__tag">Valet Trash • Compliance • Documentation</span>
         </span>
       </a>
 
@@ -41,10 +41,10 @@
 
         <ul class="nav__menu" id="navMenu">
           <li><a href="#services">Services</a></li>
-          <li><a href="#how">How it works</a></li>
+          <li><a href="#how-it-works">How it works</a></li>
           <li><a href="#pricing">Pricing</a></li>
           <li><a href="#areas">Service area</a></li>
-          <li><a href="#contact" class="btn btn--sm btn--primary">Request a quote</a></li>
+          <li><a class="btn btn--sm btn--primary" href="#quote">Request a quote</a></li>
         </ul>
       </nav>
     </div>
@@ -55,42 +55,68 @@
       <div class="container hero__grid">
         <div class="hero__copy reveal" style="--delay: 0ms">
           <p class="pill">Valet trash for multifamily communities</p>
-          <h1>
-            Doorstep trash pickup for apartment communities.
-          </h1>
+          <h1>Clean breezeways, clear documentation, happier residents.</h1>
           <p class="hero__sub">
-            We provide uniformed valet trash attendants for multifamily properties. Residents set out tied bags
-            in approved containers during the scheduled window (commonly Sun-Thu, 6:00 PM-8:00 PM), and we
-            collect, document, and dispose properly.
+            Uniformed valet trash attendants that keep halls spotless and rules consistent. We document exceptions, follow your standards, and respond quickly to property managers.
           </p>
-
           <div class="hero__cta">
-            <a class="btn btn--primary" href="#contact">Request a property quote</a>
+            <a class="btn btn--primary" href="#quote">Request a property quote</a>
             <a class="btn btn--ghost" href="#pricing">See pricing</a>
           </div>
-
-          <div class="hero__proof">
-            <div class="proofCard">
-              <div class="proofCard__num">5-7 nights</div>
-              <div class="proofCard__txt">Flexible schedules</div>
-            </div>
-            <div class="proofCard">
-              <div class="proofCard__num">Uniformed</div>
-              <div class="proofCard__txt">Professional attendants</div>
-            </div>
-            <div class="proofCard">
-              <div class="proofCard__num">Documented</div>
-              <div class="proofCard__txt">Clear exception notes</div>
-            </div>
+          <div class="hero__badges">
+            <span class="badge">5–7 nights</span>
+            <span class="badge">Uniformed team</span>
+            <span class="badge">Documented exceptions</span>
           </div>
         </div>
-
         <div class="hero__panel reveal" style="--delay: 120ms">
           <div class="panelCard panelCard--image">
             <img class="panelCard__image" src="assets/Wastepeople.png.png" alt="Valet trash attendants outside an apartment community" loading="eager" />
           </div>
+        </div>
+      </div>
+    </section>
 
-          <div class="hero__glow" aria-hidden="true"></div>
+    <section class="trustStrip" aria-label="Service highlights">
+      <div class="container trustStrip__grid">
+        <div class="trustStrip__item">
+          <h3>5–7 nights</h3>
+          <p>Schedules tailored to your property and resident flow.</p>
+        </div>
+        <div class="trustStrip__item">
+          <h3>Uniformed staff</h3>
+          <p>Professional attendants who are easy to identify and trust.</p>
+        </div>
+        <div class="trustStrip__item">
+          <h3>Documented exceptions</h3>
+          <p>Photos and notes keep compliance simple for your team.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="why">
+      <div class="container section__grid">
+        <div class="section__intro reveal" style="--delay: 0ms">
+          <h2>Why choose Waste Be Gone Now</h2>
+          <p>Owner-led operations with clear rules, predictable pickup windows, and responsive communication for multifamily communities.</p>
+        </div>
+        <div class="cards cards--two">
+          <article class="card reveal" style="--delay: 0ms">
+            <h3>Reliability first</h3>
+            <p>Route supervisors and uniformed attendants follow the same nightly checklist to keep breezeways clear.</p>
+          </article>
+          <article class="card reveal" style="--delay: 60ms">
+            <h3>Transparent documentation</h3>
+            <p>We log exceptions, include photos when needed, and share updates so you can address issues quickly.</p>
+          </article>
+          <article class="card reveal" style="--delay: 120ms">
+            <h3>Resident friendly</h3>
+            <p>Simple rules, consistent reminders, and courteous staff reduce missed pickups and complaints.</p>
+          </article>
+          <article class="card reveal" style="--delay: 180ms">
+            <h3>Flexible programs</h3>
+            <p>Adjust service nights, add overflow pickups, or include signage to match your community layout.</p>
+          </article>
         </div>
       </div>
     </section>
@@ -99,74 +125,79 @@
       <div class="container">
         <div class="section__head reveal" style="--delay: 0ms">
           <h2>Services</h2>
-          <p>Designed for property managers who want clean hallways and consistent rules.</p>
+          <p>Structured valet trash built for property teams that need predictable coverage and clear communication.</p>
         </div>
 
-        <div class="grid cards">
+        <div class="grid cards cards--three">
           <article class="card reveal" style="--delay: 0ms">
-            <h3>Doorstep Trash Collection</h3>
-            <p>Uniformed attendants collect tied bags from resident doors and transport to the compactor or dumpster.</p>
+            <h3>Doorstep collection</h3>
+            <p>Uniformed attendants collect tied bags from doors and move them to compactors or dumpsters safely.</p>
+            <ul class="iconList">
+              <li>Evening set-out windows</li>
+              <li>Neat bag handling</li>
+              <li>Overflow support when needed</li>
+            </ul>
           </article>
 
           <article class="card reveal" style="--delay: 60ms">
-            <h3>Compliance Monitoring</h3>
-            <p>We note overweight bags, loose trash, or prohibited items so rules stay consistent.</p>
+            <h3>Compliance monitoring</h3>
+            <p>We flag overweight bags, loose trash, or prohibited items so standards stay consistent.</p>
+            <ul class="iconList">
+              <li>Exception logs with notes</li>
+              <li>Photo documentation available</li>
+              <li>Resident rule reminders</li>
+            </ul>
           </article>
 
           <article class="card reveal" style="--delay: 120ms">
-            <h3>Exception Reporting</h3>
-            <p>Documented route notes help your team address repeat violations quickly.</p>
-          </article>
-
-          <article class="card reveal" style="--delay: 180ms">
-            <h3>Resident Communication</h3>
-            <p>Clear rules and reminders reduce missed pickups and keep breezeways clean.</p>
-          </article>
-
-          <article class="card reveal" style="--delay: 240ms">
-            <h3>Overflow Support</h3>
-            <p>Need extra pickup nights? We can structure a schedule that fits your property.</p>
+            <h3>Resident communication</h3>
+            <p>Clear rules and quick updates reduce missed pickups and complaints.</p>
+            <ul class="iconList">
+              <li>Welcome and rule sheets</li>
+              <li>Consistent service nights</li>
+              <li>Responsive to on-site staff</li>
+            </ul>
           </article>
         </div>
 
         <div class="note reveal" style="--delay: 120ms">
-          <strong>Not accepted:</strong> bulk items (furniture, mattresses, TVs), loose or leaking bags, hazardous
-          materials (chemicals, paint, batteries, medical waste), or anything illegal.
+          <strong>Not accepted:</strong> bulk items (furniture, mattresses, TVs), loose or leaking bags, hazardous materials (chemicals, paint, batteries, medical waste), or anything illegal.
         </div>
       </div>
     </section>
 
-    <section class="section section--alt" id="how">
+    <section class="section section--muted" id="how-it-works">
+      <span id="how" class="anchor"></span>
       <div class="container">
         <div class="section__head reveal" style="--delay: 0ms">
           <h2>How it works</h2>
-          <p>Clear rules, consistent pickup, and a clean community.</p>
+          <p>Clear rules, consistent pickup, and a clean community in three steps.</p>
         </div>
 
         <div class="steps">
           <div class="step reveal" style="--delay: 0ms">
             <div class="step__num">1</div>
             <h3>Set the schedule</h3>
-            <p>We confirm service nights, set-out window, and container rules (commonly Sun-Thu, 6:00 PM-8:00 PM).</p>
+            <p>We confirm service nights, set-out window, and container rules to match your property layout.</p>
           </div>
           <div class="step reveal" style="--delay: 80ms">
             <div class="step__num">2</div>
             <h3>Residents set out</h3>
-            <p>Tied bags go inside the provided container outside the door during the window.</p>
+            <p>Tied bags go inside approved containers outside doors during the window.</p>
           </div>
           <div class="step reveal" style="--delay: 160ms">
             <div class="step__num">3</div>
             <h3>We collect and document</h3>
-            <p>Attendants pick up, transport to the compactor, and record exceptions when needed.</p>
+            <p>Attendants collect, transport to the compactor, and log any exceptions with notes or photos.</p>
           </div>
         </div>
 
         <div class="callout reveal" style="--delay: 120ms">
           <div>
             <h3>Need a proposal this week?</h3>
-            <p>Send your unit count and address and we will respond quickly.</p>
+            <p>Send unit count and address and we will respond quickly with availability.</p>
           </div>
-          <a class="btn btn--primary" href="#contact">Request a proposal</a>
+          <a class="btn btn--primary" href="#quote">Request a proposal</a>
         </div>
       </div>
     </section>
@@ -175,41 +206,52 @@
       <div class="container">
         <div class="section__head reveal" style="--delay: 0ms">
           <h2>Pricing</h2>
-          <p>Typical ranges below. Exact pricing depends on unit count, service nights, and site access.</p>
+          <p>Ranges vary by unit count, service nights, access, and reporting needs. We respond quickly with tailored numbers.</p>
         </div>
 
         <div class="pricing">
           <article class="priceCard priceCard--featured reveal" style="--delay: 0ms">
-            <div class="badge badge--bright">Most common</div>
+            <div class="badge badge--accent">Most common</div>
             <h3>Property Plan</h3>
-            <p class="priceCard__price">$11.17-$19.18<span>/unit/month</span></p>
-            <ul>
-              <li>5-7 service nights per week</li>
-              <li>Uniformed attendants</li>
-              <li>Exception documentation</li>
-            </ul>
-            <a class="btn btn--primary" href="#contact">Request a quote</a>
+            <p class="priceCard__price">$11.17–$19.18<span>/unit/month</span></p>
+            <div class="priceCard__list">
+              <h4>What’s included</h4>
+              <ul class="iconList">
+                <li>5–7 valet nights weekly</li>
+                <li>Uniformed attendants</li>
+                <li>Exception documentation</li>
+                <li>Set-out reminders</li>
+              </ul>
+            </div>
+            <a class="btn btn--primary" href="#quote">Request a quote</a>
           </article>
 
           <article class="priceCard reveal" style="--delay: 90ms">
             <h3>Resident Amenity</h3>
-            <p class="priceCard__price">$25-$35<span>/month</span></p>
-            <ul>
-              <li>Typically billed by the property</li>
-              <li>Convenient doorstep pickup</li>
-              <li>Cleaner hallways and breezeways</li>
-            </ul>
-            <a class="btn btn--ghost" href="#contact">Ask about billing</a>
+            <p class="priceCard__price">$25–$35<span>/month</span></p>
+            <div class="priceCard__list">
+              <h4>What’s included</h4>
+              <ul class="iconList">
+                <li>Doorstep pickup convenience</li>
+                <li>Cleaner halls and breezeways</li>
+                <li>Property-billed or resident-billed options</li>
+              </ul>
+            </div>
+            <a class="btn btn--ghost" href="#quote">Ask about billing</a>
           </article>
 
           <article class="priceCard reveal" style="--delay: 180ms">
-            <h3>Add-Ons</h3>
+            <h3>Add-ons</h3>
             <p class="priceCard__price">Custom<span>/quote</span></p>
-            <ul>
-              <li>Extra nights or overflow days</li>
-              <li>Detailed reporting needs</li>
-            </ul>
-            <a class="btn btn--ghost" href="#contact">Build a plan</a>
+            <div class="priceCard__list">
+              <h4>What’s included</h4>
+              <ul class="iconList">
+                <li>Extra or overflow pickup nights</li>
+                <li>Compliance signage and rule sheets</li>
+                <li>Detailed reports and photos</li>
+              </ul>
+            </div>
+            <a class="btn btn--ghost" href="#quote">Build a plan</a>
           </article>
         </div>
 
@@ -219,42 +261,61 @@
       </div>
     </section>
 
-    <section class="section section--alt" id="areas">
+    <section class="section section--muted" id="compliance">
+      <div class="container section__grid">
+        <div class="section__intro reveal" style="--delay: 0ms">
+          <h2>Compliance &amp; documentation</h2>
+          <p>Every route is tracked so you know what happened each night. We keep residents informed and property teams aligned.</p>
+        </div>
+        <div class="cards cards--three">
+          <article class="card reveal" style="--delay: 0ms">
+            <h3>Photo &amp; exception logs</h3>
+            <p>Documented notes with photos when needed help address repeat issues quickly.</p>
+          </article>
+          <article class="card reveal" style="--delay: 60ms">
+            <h3>Consistency over time</h3>
+            <p>Standardized routes and checklists keep nightly service predictable and on-brand.</p>
+          </article>
+          <article class="card reveal" style="--delay: 120ms">
+            <h3>Resident rules recap</h3>
+            <p>Clear do’s and don’ts reduce loose trash, leaks, and improper set-outs.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="areas">
       <div class="container areas">
         <div>
           <div class="section__head section__head--left reveal" style="--delay: 0ms">
             <h2>Service area</h2>
-            <p>We serve nearby multifamily communities with reliable evening pickup.</p>
+            <p>Serving multifamily communities with reliable evening pickup and clear communication.</p>
           </div>
 
           <div class="areas__grid">
             <div class="miniCard reveal" style="--delay: 0ms">
-              <h3>Primary</h3>
-              <p>Update this list to match where you operate.</p>
+              <h3>Current coverage</h3>
               <ul class="bullets">
-                <li>Your City</li>
-                <li>Neighboring City</li>
-                <li>County / Metro Area</li>
+                <li>Hampton Roads (example)</li>
+                <li>Atlanta Metro (example)</li>
               </ul>
             </div>
 
             <div class="miniCard reveal" style="--delay: 90ms">
               <h3>Typical schedule</h3>
               <ul class="bullets">
-                <li>Set-out: 6:00 PM-8:00 PM</li>
+                <li>Set-out: 6:00 PM–8:00 PM</li>
                 <li>Pickup begins: 8:00 PM</li>
-                <li>Service nights: Sun-Thu</li>
+                <li>Service nights: Sun–Thu or custom</li>
               </ul>
             </div>
           </div>
         </div>
 
         <div class="trustBox reveal" style="--delay: 120ms">
-          <h3>Built on reliability</h3>
-          <p>
-            Consistent routes, uniformed attendants, and clear documentation keep your community clean
-            and your staff informed.
-          </p>
+          <h3>Request availability</h3>
+          <p>Share your property address and desired start date—we’ll confirm coverage and onboarding steps.</p>
+          <a class="btn btn--primary" href="#quote">Check availability</a>
           <div class="trustBox__stats">
             <div class="stat">
               <div class="stat__num">Consistent</div>
@@ -265,15 +326,16 @@
               <div class="stat__txt">Exception notes</div>
             </div>
             <div class="stat">
-              <div class="stat__num">Clean</div>
-              <div class="stat__txt">Community standards</div>
+              <div class="stat__num">Compliant</div>
+              <div class="stat__txt">Resident rules</div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section" id="contact">
+    <section class="section section--muted" id="quote">
+      <span id="contact" class="anchor"></span>
       <div class="container">
         <div class="section__head reveal" style="--delay: 0ms">
           <h2>Request a property quote</h2>
@@ -401,7 +463,7 @@
         <div class="footer__links">
           <a href="#services">Services</a>
           <a href="#pricing">Pricing</a>
-          <a href="#contact">Quote</a>
+          <a href="#quote">Quote</a>
           <a href="#top">Back to top</a>
         </div>
       </div>
