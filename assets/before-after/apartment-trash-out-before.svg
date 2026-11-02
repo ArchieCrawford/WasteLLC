@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img">
+  <title>Placeholder photo slot for Apartment trash-out. Replace with apartment-trash-out-before.jpg.</title>
+  <rect width="800" height="600" fill="#e7eee9"/>
+  <rect x="28" y="28" width="744" height="544" rx="28" fill="#f4f7f5" stroke="#0d5c38" stroke-width="4" stroke-dasharray="14 12"/>
+  <rect x="330" y="168" width="140" height="108" rx="16" fill="none" stroke="#0d5c38" stroke-width="4"/>
+  <circle cx="372" cy="206" r="14" fill="none" stroke="#0d5c38" stroke-width="4"/>
+  <path d="M352 252l28-32 22 24 18-16 28 24" fill="none" stroke="#0d5c38" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="400" y="330" text-anchor="middle" fill="#14221b" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700">Apartment trash-out</text>
+  <text x="400" y="378" text-anchor="middle" fill="#3c4a44" font-family="Arial, Helvetica, sans-serif" font-size="22">Photo coming soon</text>
+  <text x="400" y="448" text-anchor="middle" fill="#0d5c38" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Drop this file in assets/before-after/</text>
+  <text x="400" y="480" text-anchor="middle" fill="#0d5c38" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">apartment-trash-out-before.jpg</text>
+</svg>

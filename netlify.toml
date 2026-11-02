@@ -1,6 +1,14 @@
 [build]
   publish = "."
 
+# /thanks serves thanks.html when Netlify Pretty URLs are off.
+# When Pretty URLs are on, thanks.html is already available at /thanks.
+[[redirects]]
+  from = "/thanks"
+  to = "/thanks.html"
+  status = 200
+  force = true
+
 [[headers]]
   for = "/*"
   [headers.values]
