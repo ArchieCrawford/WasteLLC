@@ -135,7 +135,10 @@ button, input, select, textarea { font: inherit; }
   background: #fff; border: 1px solid var(--line); border-radius: var(--radius-lg);
   overflow: hidden; box-shadow: var(--shadow);
 }
-.panelCard img { width: 100%; height: 420px; object-fit: cover; }
+.panelCard img {
+  width: 100%; height: auto; max-height: 640px;
+  object-fit: contain; object-position: center; background: #eef3ef;
+}
 .panelCard figcaption { padding: 14px 16px 16px; color: var(--muted); font-size: 14px; }
 
 .who { background: var(--ink); color: #e7f3ec; }
@@ -191,7 +194,10 @@ a[href^="tel:"] { white-space: nowrap; }
   width: 100%; max-width: 100%; aspect-ratio: 4 / 3; object-fit: contain;
   background: #e7eee9; border-radius: 14px; border: 2px dashed #9eb5a8;
 }
-.baShot img.is-live { object-fit: cover; border-style: solid; border-color: transparent; }
+.baShot img.is-live {
+  aspect-ratio: auto; height: auto; object-fit: contain;
+  border: 0; background: #dfe6e1;
+}
 .baShot figcaption {
   position: absolute; top: 18px; left: 18px;
   background: var(--ink); color: #fff;
@@ -315,7 +321,7 @@ a[href^="tel:"] { white-space: nowrap; }
   .nav__mobileCtas { display: grid; gap: 8px; padding-top: 6px; }
   .hero__grid, .serviceGrid, .baCard__pair, .steps, .areas, .contactGrid, .who__grid { grid-template-columns: 1fr; }
   .who__item + .who__item { border-left: 0; border-top: 1px solid rgba(255, 255, 255, 0.12); }
-  .panelCard img { height: 280px; }
+  .panelCard img { max-height: 480px; height: auto; }
   .form__row { grid-template-columns: 1fr; }
   .mobileBar {
     display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 8px;

@@ -55,6 +55,12 @@ photoSlots.forEach((img) => {
       img.classList.add("is-live");
       const liveAlt = img.getAttribute("data-live-alt");
       if (liveAlt) img.alt = liveAlt;
+      const card = img.closest(".baCard");
+      if (!card || !card.hasAttribute("hidden")) return;
+      const slots = [...card.querySelectorAll("img[data-photo]")];
+      if (slots.length && slots.every((slot) => slot.classList.contains("is-live"))) {
+        card.hidden = false;
+      }
     };
     probe.onerror = () => tryExt(index + 1);
     probe.src = url;
